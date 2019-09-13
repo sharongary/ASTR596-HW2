@@ -46,7 +46,7 @@ def cmdplot(clustname='', magshift=0,colshift=0):
     plt.plot(refcldat['bp_rp'], refcldat['phot_rp_mean_mag'], 'ro',markersize=3,alpha=0.8, label = 'Pleiades')
     plt.ylim(18, 2)
     plt.xlim(-0.5, 3.5)
-    plt.xlabel('GBP-GRP$')
+    plt.xlabel('GBP-GRP')
     plt.ylabel('GRP')
     plt.title(clustname)
     plt.legend(loc='upper left')
