@@ -33,7 +33,7 @@ def cmdplot(clustname='', magshift=0,colshift=0):
                   #'figure.titlesize': 20,
                   'mathtext.fontset': 'cm',
                   'mathtext.rm': 'serif',
-                  'text.usetex': True,
+                  #'text.usetex': True,
                   'figure.figsize': plotsize_single}
     plt.rcParams.update(params)
 
