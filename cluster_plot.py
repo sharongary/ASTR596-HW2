@@ -5,7 +5,7 @@ from astropy.io.votable import parse_single_table
 
 def cmdplot(clustname='', magshift=0,colshift=0):
 
-    path = 'Data/Project_clusters/'
+    path = 'Project_clusters/'
 
     #read in target cluster
     filename = path + clustname + ' 20arcmin-result.vot'
